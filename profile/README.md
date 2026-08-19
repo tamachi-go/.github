@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./images/square.png" width="160" alt="tamachi.go log" />
+<img src="../images/square.png" width="160" alt="tamachi.go log" />
 
 **田町駅から半径約20km(20060102150405nm)の Golang コミュニティ**
 
