@@ -67,3 +67,7 @@ golangに関わらずGopherのためになる内容であれば、golangに限�
 ---
 
 <div align="center">
+
+<sub>The Go gopher was designed by Renée French.</sub>
+
+</div>
