@@ -64,6 +64,8 @@ golangに関わらずGopherのためになる内容であれば、golangに限�
 
 過去のイベント一覧はconnpassの[開催イベント一覧](https://tamachi-go.connpass.com/event/)からご覧いただけます。
 
+また過去の運営でのスライドは[こちら](https://tamachi-go.github.io/slide/)
+
 ---
 
 <div align="center">
