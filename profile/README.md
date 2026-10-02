@@ -7,8 +7,6 @@
 
 </div>
 
----
-
 ## 🐹 tamachi.go とは
 
 tamachi.goは田町駅から半径20060102150405nm (約20km) にお住まい・お勤め・ゆかりのあるエンジニアを対象としたgolangの勉強を目的としたコミュニティとなります。
@@ -17,8 +15,6 @@ golangに関わらずGopherのためになる内容であれば、golangに限�
 (例: GopherのためのVim活用術など)<br>
 普段の業務でやったことや、新しい発見、初めての登壇の機会など、気軽に発表できる場所として、ぜひみんなで育てていければと思っています。
 
----
-
 ## 📅 参加方法
 
 最新のイベント情報は connpass で公開しています。
@@ -26,8 +22,6 @@ golangに関わらずGopherのためになる内容であれば、golangに限�
 👉 **[tamachi.go on connpass](https://tamachi-go.connpass.com)**
 
 初参加大歓迎です。気になるイベントがあれば気軽にご参加ください。
-
----
 
 ## 🙋 運営メンバー
 
@@ -54,8 +48,6 @@ golangに関わらずGopherのためになる内容であれば、golangに限�
 
 > 連絡はTwitter(X)にて！
 
----
-
 ## 🎤 活動実績
 
 | 回  | 日付       | URL                                                            |
@@ -65,8 +57,6 @@ golangに関わらずGopherのためになる内容であれば、golangに限�
 過去のイベント一覧はconnpassの[開催イベント一覧](https://tamachi-go.connpass.com/event/)からご覧いただけます。
 
 また過去の運営でのスライドは[こちら](https://tamachi-go.github.io/slide/)
-
----
 
 ## 🛡️ 行動規範・アンチハラスメントポリシー
 
