@@ -65,10 +65,9 @@ tamachi.goは、すべての参加者が安心して学び、交流できる場�
 差別的・攻撃的な言動、性的な表現、無断での撮影・SNS投稿、執拗な勧誘、技術レベルを見下す言動などのハラスメント行為を禁止します。これは会場だけでなく、懇親会やオンラインでのやり取りにも適用されます。
 ハラスメントを受けた・目撃した場合は、運営スタッフまでご相談ください。プライバシーは厳守します。違反があった場合、運営の判断で注意・退場等の対応を行うことがあります。
 
----
+## 📄 ライセンス表記
 
-<div align="center">
+- 元になっている Gopher は、[Renée French](https://reneefrench.blogspot.com/) さんによってデザインされ、[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) ライセンスの下で公開されています。
+- このロゴは、Gopher を使って tamachi.go がデザインしました。[CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja) ライセンスの下で公開されています。
 
-<sub>The Go gopher was designed by Renée French.</sub>
-
-</div>
+画像データは [tamachi-go/assets](https://github.com/tamachi-go/assets) で公開しています。
