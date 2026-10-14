@@ -67,7 +67,13 @@ tamachi.goは、すべての参加者が安心して学び、交流できる場�
 
 ## 📄 ライセンス表記
 
-- 元になっている Gopher は、[Renée French](https://reneefrench.blogspot.com/) さんによってデザインされ、[CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) ライセンスの下で公開されています。
-- このロゴは、Gopher を使って tamachi.go がデザインしました。[CC0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja) ライセンスの下で公開されています。
+- Go Gopher のデザインは [Renée French](https://reneefrench.blogspot.com/) さんによるもので、[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) で公開されています。
+- tamachi.go が加えた改変部分は、[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/deed.ja) で公開しています。
+
+画像を利用する際は、以下のクレジット表記をお願いします。
+
+```
+The Go gopher was designed by [Renée French](https://reneefrench.blogspot.com/). ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)) Illustration by [tamachi.go](https://github.com/tamachi-go).
+```
 
 画像データは [tamachi-go/assets](https://github.com/tamachi-go/assets) で公開しています。
