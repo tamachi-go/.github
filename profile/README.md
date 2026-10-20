@@ -53,8 +53,9 @@ golangに関わらずGopherのためになる内容であれば、golangに限�
 | 回  | 日付       | URL                                                            |
 | --- | ---------- | -------------------------------------------------------------- |
 | #1  | 2026-08-20 | [tamachi.go #1](https://tamachi-go.connpass.com/event/400310/) |
+| #2  | 2026-10-20 | [tamachi.go #2](https://tamachi-go.connpass.com/event/406969/) |
 
-過去のイベント一覧はconnpassの[開催イベント一覧](https://tamachi-go.connpass.com/event/)からご覧いただけます。
+過去のイベント一覧はconnpassの[開催イベント一覧](https://tamachi-go.connpass.com/event/)と[Youtubeの動画](https://www.youtube.com/channel/UC-oj_2xHaT6QtWzmzq9eoDA)からご覧いただけます。
 
 また過去の運営でのスライドは[こちら](https://tamachi-go.github.io/slide/)
 
