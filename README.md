@@ -41,3 +41,9 @@ tamachi
 ワークフローは `actions.lock` で固定しているので、追加後に `gh actions-lock` を実行して `.github/workflows/actions.lock` もコミットしてください。
 
 Dependabot が更新するのは `.github/workflows/` 配下だけです。`.github/workflows/cspell.yml` の Actions が更新されたら、`workflow-templates/cspell.yml` も同じバージョンに手動で揃えてください。
+
+## ライセンス
+
+[MIT License](./LICENSE)
+
+`profile/square.png` は MIT License の対象外です（ライセンスは [tamachi-go/assets](https://github.com/tamachi-go/assets#ライセンス) を参照）
