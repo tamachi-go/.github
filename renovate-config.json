@@ -1,0 +1,46 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "tamachi-go 共通の Renovate 設定。各リポジトリの renovate.json から \"github>tamachi-go/.github:renovate-config\" で読み込む。GitHub Actions (uses: と actions.lock) は Dependabot が担当し、それ以外を Renovate が担当する。",
+  "extends": [
+    "config:recommended",
+    ":semanticCommits",
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": ["* 0-12 * * 1"],
+  "labels": ["dependencies"],
+  "prConcurrentLimit": 5,
+  "prHourlyLimit": 0,
+  "minimumReleaseAge": "7 days",
+  "internalChecksFilter": "strict",
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "labels": ["dependencies", "security"],
+    "minimumReleaseAge": null,
+    "schedule": ["at any time"]
+  },
+  "packageRules": [
+    {
+      "description": "Actions の更新は actions.lock を同時に再生成できる Dependabot に任せる (.github/dependabot.yml)。",
+      "matchManagers": ["github-actions"],
+      "enabled": false
+    },
+    {
+      "description": "ただし services: のコンテナイメージは Dependabot が扱わないので Renovate で更新する。",
+      "matchManagers": ["github-actions"],
+      "matchDepTypes": ["service"],
+      "enabled": true
+    },
+    {
+      "description": "gcr.io (distroless) などのレジストリはリリース日時を返さず、timestamp-required だと永久に保留される。Docker Hub のタグ日時も再 push で更新されるだけなので、日時が取れたときだけ待つ。",
+      "matchDatasources": ["docker"],
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
+    },
+    {
+      "description": "同じタグの digest 更新 (ベースイメージの再ビルド) は待たずに出す。",
+      "matchUpdateTypes": ["digest", "pinDigest"],
+      "minimumReleaseAge": null
+    }
+  ]
+}
