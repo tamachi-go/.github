@@ -2,6 +2,17 @@
 
 orgsの情報をまとめるものです
 
+## セットアップ
+
+コミット時に [lefthook](https://github.com/evilmartians/lefthook) でステージしたファイルに cSpell をかけます (CI の `cSpell` ワークフローと同じチェック)。lefthook と Node.js (cSpell を `npx` で動かす用) のバージョンは [mise](https://mise.jdx.dev) で `mise.toml` に固定しています。Docker は不要です。
+
+clone 後に一度だけ次を実行してください。
+
+```sh
+mise install                   # lefthook・Node.js を入れる
+mise exec -- lefthook install  # Git フックを設定
+```
+
 ## Renovate の共通設定
 
 [renovate-config.json](./renovate-config.json) は org 内のリポジトリで共有する Renovate のプリセットです。各リポジトリの `renovate.json` から次のように読み込みます。
@@ -12,7 +23,7 @@ orgsの情報をまとめるものです
 }
 ```
 
-GitHub Actions (`uses:` と `.github/workflows/actions.lock`) の更新は各リポジトリの Dependabot が担当し、それ以外を Renovate が担当します。このリポジトリ自体は Actions しか依存がないので Renovate は使っていません。
+GitHub Actions (`uses:` と `.github/workflows/actions.lock`) の更新は各リポジトリの Dependabot が担当し、それ以外を Renovate が担当します。このリポジトリ自体も `renovate.json` でこのプリセットを読み込み、`mise.toml` のツールを Renovate で更新しています。
 
 ## cSpell のワークフローテンプレート
 
