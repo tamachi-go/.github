@@ -1,0 +1,5 @@
+{
+  "name": "cSpell",
+  "description": "cSpell でリポジトリ内のスペルをチェックします (cspell.config.yaml と project-words.txt が必要です)",
+  "categories": ["Continuous integration"]
+}

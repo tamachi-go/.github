@@ -1,0 +1,19 @@
+# cSpell によるスペルチェックのワークフローです。
+# - リポジトリ直下に cspell.config.yaml と project-words.txt も追加してください (例は tamachi-go/.github の README を参照)。
+# - org のワークフローは actions.lock で固定されているため、追加後に `gh actions-lock` を実行して .github/workflows/actions.lock を更新・コミットしてください。
+name: cSpell
+
+on:
+  push:
+    branches:
+      - $default-branch
+  pull_request:
+
+jobs:
+  cspell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: streetsidesoftware/cspell-action@v9.2.0
+        with:
+          config: ./cspell.config.yaml
